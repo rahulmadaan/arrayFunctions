@@ -1,5 +1,5 @@
 let { equal,deepEqual } = require('assert');
-let {filter} = require('../src/library.js');
+let { filter,map } = require('../src/library.js');
 
 //----------------------------------------------------------
 // functions required for testing filter function.

@@ -5,4 +5,11 @@ const filter = function(input,inputFunction) {
   }
   return filteredData;
 }
-module.exports = {filter};
+const map = function(input,inputFunction) {
+  let mappedData = [];
+  for(let value of input) {
+    mappedData.push(inputFunction(value));
+  }
+  return mappedData;
+}
+module.exports = {filter,map};
